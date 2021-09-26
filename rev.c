@@ -17,7 +17,7 @@
   for (i = 0; i < count; i++)
   {
     rev[i] = str[j];
-    j--;
+    j=j-1;
   }
 
   printf("\nString After Reverse: %s", rev);
